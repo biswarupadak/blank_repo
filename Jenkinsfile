@@ -8,7 +8,7 @@ pipeline {
     }
     stage('Input') {
       steps {
-        input(message: 'xxxx', id: 'qqqq', submitter: 'Admin', submitterParameter: 'Approval')
+        input(message: 'xxxx', id: 'qqqq', submitter: 'admin', submitterParameter: 'Approval')
       }
     }
   }
